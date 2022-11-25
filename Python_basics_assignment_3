@@ -1,0 +1,39 @@
+1. Why are functions advantageous to have in your programs?
+Ans- There are a lot of advantages of using functions in programs, such as making our code short and reusability. For eg we have to find the length of a string we have to write acode for this from scratch instead of this we can use an already available function len() to find the length of a string this saves us time.
+
+2. When does the code in a function run: when it's specified or when it's called?
+Ans-  when we use len() or any function() in our program function gets called. 
+
+3.What statement creates a function?
+Ans - “def func_name():” This statement creates the function 
+
+4. What is the difference between a function and a function call?
+Ans-Function is a code that is written someone else which we are using in our program for making our code short and for code reusability to execute this function in  our code we use a function call
+
+5. How many global scopes are there in a Python program? How many local scopes?
+Ans- python has 2 scopes global and local and the count of these scopes in a program can change from program to program 
+
+6. What happens to variables in a local scope when the function call returns?
+Ans - variables are destroyed when the function call returns
+
+7. What is the concept of a return value? Is it possible to have a return value in an expression?
+Ans - A return statement is used to end the execution of the function call and “returns” the result to the caller. The statements after the return statements are not executed. Yes it is  possible to have a return value in an expression
+
+8. If a function does not have a return statement, what is the return value of a call to that function?
+Ans -If there are no return statements, then it returns None.
+
+10. What is the data type of None?
+Ans - Nonetype
+
+11. What does the sentence import areallyourpetsnamederic do?
+And - With the help of import we can import modules,libraries in python
+
+12. If you had a bacon() feature in a spam module, what would you call it after importing spam?
+Ans - If we have bacon () funtion in spam module then first we need to import the module and then we need to import the funtion too. from spam import bacon This above code is used to import funtions from given module. And then we can use the imported funtion for our own utilities.
+
+13. What can you do to save a programme from crashing if it encounters an error?
+Ans - In that case we can do exception handling
+
+14. What is the purpose of the try clause? What is the purpose of the except clause?
+Ans - Try and Except statement is used to handle these errors within our code in Python. The try block is used to check some code for errors i.e the code inside the try block will execute when there is no error in the program. Whereas the code inside the except block will execute whenever the program encounters some error in the preceding try block.
+
