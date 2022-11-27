@@ -1,0 +1,26 @@
+1. What does an empty dictionary's code look like?
+Ans - d= {}
+
+2. What is the value of a dictionary value with the key 'foo' and the value 42?
+Ans - {‘foo’:42}
+
+3. What is the most significant distinction between a dictionary and a list?
+Ans - Lists are mutable but dictionary are also mutable but only can store key as immutable.In list indexing works but in dictionary there is indexing but not as lists
+
+4. What happens if you try to access spam['foo'] if spam is {'bar': 100}?
+Ans - will get error because the key ‘foo’ does not exists 
+
+5. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and 'cat' in spam.keys()?
+Ans -There is no difference. The in operator checks whether a value exists as a key in the dictionary
+
+6. If a dictionary is stored in spam, what is the difference between the expressions 'cat' in spam and 'cat' in spam.values()?
+Ans- 'cat' in spam will check if there is any key with names ‘cat’ and 'cat' in spam.values() will check if there is any value as ‘cat’
+
+7. What is a shortcut for the following code?
+if 'color' not in spam:
+spam['color'] = 'black'
+Ans - spam.setdefault('color', 'black')
+
+8. How do you "pretty print" dictionary values using which module and function?
+Ans - pprint.pprint()
+
