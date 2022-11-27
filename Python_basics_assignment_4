@@ -1,0 +1,48 @@
+1. What exactly is []?
+Ans - in python whenever we use  or see [] this called as lists
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Ans - spam.insert(2,’hello’)
+
+Let's pretend the spam includes the list ['a', 'b', 'c', 'd'] for the next three queries.
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+Ans - “d”
+
+4. What is the value of spam[-1]?
+Ans -  -1 means it will start from last so the ans is last index “d”
+
+5. What is the value of spam[:2]?
+Ans - [:2] means it will start from 0 and give output till 2 i.e sp it will print 0th and 1st index  ‘a’ and ‘b’
+
+Let's pretend bacon has the list [3.14, 'cat', 11, 'cat', True] for the next three questions.
+6. What is the value of bacon.index('cat')?
+Ans -  1
+
+7. How does bacon.append(99) change the look of the list value in bacon?
+Ans -  bacon.append(99) will add 99 at the index in the list  [3.14, 'cat,' 11, 'cat,' True,99]
+
+8. How does bacon.remove('cat') change the look of the list in bacon?
+Ans - this will remove first occurrence of ‘cat’ from the list [3.14,11,’cat’, True]
+
+9. What are the list concatenation and list replication operators?
+And - for list replication, we can use listname.copy() function and for list concatenation, we can use “+” operator
+
+10. What is difference between the list methods append() and insert()?
+And - append() will add the item at the last index and with the help of insert() we can add to any index position
+
+11. What are the two methods for removing items from a list?
+Ans - using pop and remove
+
+12. Describe how list values and string values are identical.
+Ans - List and string both are used to store value /data and both are sequences.
+
+13. What's the difference between tuples and lists?
+Ans Tuples are immutable and lists are mutable this is the main difference between tuples and lists
+
+14. How do you type a tuple value that only contains the integer 42?
+Ans - tuple = (42)
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+Ans - using type conversion 
+
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+Ans - A deep copy creates a copy of the object as well as elements of the object and A copy creates a copy of the object only
