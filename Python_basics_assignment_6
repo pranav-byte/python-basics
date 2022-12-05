@@ -1,0 +1,55 @@
+1. What are escape characters, and how do you use them?
+Ans- . As the name suggests, the escape character escapes the characters in a string for a brief moment to introduce unique inclusion.
+e.g - print("hello\nhow\nare\nyou")
+The will print every word on next line
+
+2. What do the escape characters n and t stand for?
+Ans- n is newline and t is tab
+
+3. What is the way to include backslash characters in a string?
+Ans - at he starting of string you can use r which is for raw - print(r”hello\how\are\you”)
+
+4. The string "Howl's Moving Castle" is a correct value. Why isn't the single quote character in the word Howl's not escaped a problem?
+Ans- because we have used double quotes(“) at starting and ending if we used single at starting and ending then it can give an error
+
+5. How do you write a string of newlines if you don't want to use the n character?
+Ans - using “””write
+your
+string
+here”””
+
+6. What are the values of the given expressions?
+'Hello, world!'[1]
+'Hello, world!'[0:5]
+'Hello, world!'[:5]
+'Hello, world!'[3:]
+Ans- 'Hello, world!'[1] - e
+'Hello, world!'[0:5] - Hello
+'Hello, world!'[:5] - Hello
+'Hello, world!'[3:] - lo,world!
+
+
+
+7. What are the values of the following expressions?
+'Hello'.upper()
+'Hello'.upper().isupper()
+'Hello'.upper().lower()
+Ans- 'Hello'.upper() - ‘HELLO’
+'Hello'.upper().isupper() - True
+'Hello'.upper().lower() - hello
+
+8. What are the values of the following expressions?
+'Remember, remember, the fifth of July.'.split()
+'-'.join('There can only one.'.split())
+Ans - ['Remember,', 'remember,', 'the', 'fifth', 'of', 'July.']
+There-can-only-one.
+
+9. What are the methods for right-justifying, left-justifying, and centering a string?
+Ans - str.ljust(s, width[, fillchar])
+str.rjust(s, width[, fillchar])
+str.center(s, width[, fillchar])
+
+
+10. What is the best way to remove whitespace characters from the start or end?
+Ans- lstrip(),rstrip(),strip()
+
